@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "863747249018",
+    "firebase_url": "https://eventdatabasedixit1059.firebaseio.com",
+    "project_id": "eventdatabasedixit1059",
+    "storage_bucket": "eventdatabasedixit1059.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863747249018:android:903a688d9fef553f94fcc3",
+        "android_client_info": {
+          "package_name": "com.example.firebaseexampleapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863747249018-0idb0fpmpdfo7ueno2i327ggceqe6n4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsIWrNLSuzEl4YtyvrHs-yLjUBrDrD1ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863747249018-0idb0fpmpdfo7ueno2i327ggceqe6n4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
