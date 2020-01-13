@@ -54,6 +54,10 @@ public class FirebaseDatabaseHelper {
 
     }
 
+    public ArrayList<Event> getEventsArrayList(){
+        return eventsArrayList;
+    }
+
     public DatabaseReference getDatabaseReference() {
         return mReferenceEvents;
     }
