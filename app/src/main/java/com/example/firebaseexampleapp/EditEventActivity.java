@@ -7,12 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import java.text.DecimalFormat;
 
 public class EditEventActivity extends AppCompatActivity {
     private FirebaseDatabaseHelper dbHelper;
     private EditText eventNameET;
     private EditText eventDateET;
     private String keyToUpdate;
+
+    // DecimalFormat dateFormat = new DecimalFormat("##/##/####");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +40,8 @@ public class EditEventActivity extends AppCompatActivity {
     public void updateEventData(View v) {
         String newName = eventNameET.getText().toString();
         String newDate = eventDateET.getText().toString();
+
+        //newDate = dateFormat.format(newDate);
 
         // error checking to ensure date is of the form 01/17/1979 etc.
         if (newDate.length() != 10)
